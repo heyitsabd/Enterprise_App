@@ -1,0 +1,302 @@
+{
+    "Testimonies": [
+        {
+            "Name": "Abd Ahmad",
+            "Response": "I love the new necklace I bought! The quality is fantastic and it looks even better in person.",
+            "Image": "images/abd.jpeg"
+        },
+        {
+            "Name": "Alister Rokmanev",
+            "Response": "Thank you for the excellent service. The staff was very helpful in finding the perfect ring for my wife.",
+            "Image": "images/alikov.jpg"
+        },
+        {
+            "Name": "Rubika K.",
+            "Response": "I just picked up my custom bracelet, and it’s exactly what I wanted. Great job on the engraving!",
+            "Image": "images/rubika.jpg"
+        },
+        {
+            "Name": "Jyanti K.R.",
+            "Response": "I had a wonderful experience shopping here. The selection is beautiful, and I found the perfect gift.",
+            "Image": "images/jyanti.jpg"
+        },
+        {
+            "Name": "Shilpa K.",
+            "Response": "The earrings I ordered online arrived quickly and are gorgeous. I’ll definitely be back for more.",
+            "Image": "images/shilpa.jpg"
+        },
+        {
+            "Name": "Vaibhav Rohilla",
+            "Response": "I appreciated the assistance with resizing my ring. It fits perfectly now and looks stunning!",
+            "Image": "images/vaibhav.jpg"
+        },
+        {
+            "Name": "Nabeel Akhtar",
+            "Response": "The customer service was outstanding. They answered all my questions and helped me pick out a stunning piece for my anniversary.",
+            "Image": "images/nabeel.jpg"
+        },
+        {
+            "Name": "Fiza Shakeel",
+            "Response": "I received my order and the jewelry is stunning. The craftsmanship is top-notch, and it was packaged beautifully.",
+            "Image": "images/fiza.jpeg"
+        }
+    ],
+    "RingData": [
+        {
+            "id": "ring1",
+            "pic": "images/ring1.jpeg",
+            "name": "Elegant Diamond Ring",
+            "description": "A beautiful diamond ring with an elegant design, perfect for special occasions.",
+            "price": "2,500"
+        },
+        {
+            "id": "ring2",
+            "pic": "images/ring2.jpeg",
+            "name": "Classic Gold Band",
+            "description": "A timeless gold band that symbolizes eternal love and commitment.",
+            "price": "800"
+        },
+        {
+            "id": "ring3",
+            "pic": "images/ring3.jpeg",
+            "name": "Platinum Engagement Ring",
+            "description": "A stunning platinum ring designed to celebrate your engagement.",
+            "price": "3,000"
+        },
+        {
+            "id": "ring4",
+            "pic": "images/ring4.jpeg",
+            "name": "Sapphire Gemstone Ring",
+            "description": "An exquisite ring featuring a deep blue sapphire gemstone.",
+            "price": "1,500"
+        },
+        {
+            "id": "ring5",
+            "pic": "images/ring5.jpeg",
+            "name": "Rose Gold Ring",
+            "description": "A modern ring crafted from rose gold, offering a unique and stylish look.",
+            "price": "1,200"
+        },
+        {
+            "id": "ring6",
+            "pic": "images/ring6.jpeg",
+            "name": "Vintage Silver Ring",
+            "description": "A vintage-inspired silver ring with intricate detailing.",
+            "price": "600"
+        },
+        {
+            "id": "ring7",
+            "pic": "images/ring1.jpeg",
+            "name": "Emerald Cut Ring",
+            "description": "A sophisticated ring with an emerald cut stone, perfect for making a statement.",
+            "price": "4,000"
+        },
+        {
+            "id": "ring8",
+            "pic": "images/ring2.jpeg",
+            "name": "Pearl Ring",
+            "description": "A delicate ring featuring a lustrous pearl at its center.",
+            "price": "900"
+        },
+        {
+            "id": "ring9",
+            "pic": "images/ring3.jpeg",
+            "name": "Ruby Ring",
+            "description": "A ring adorned with a vibrant ruby gemstone, symbolizing passion and love.",
+            "price": "1,800"
+        },
+        {
+            "id": "ring10",
+            "pic": "images/ring4.jpeg",
+            "name": "Halo Diamond Ring",
+            "description": "A dazzling halo ring with a center diamond surrounded by smaller diamonds.",
+            "price": "3,500"
+        },
+        {
+            "id": "ring11",
+            "pic": "images/ring5.jpeg",
+            "name": "Twisted Band Ring",
+            "description": "A unique ring with a twisted band design, adding a modern touch.",
+            "price": "1,100"
+        },
+        {
+            "id": "ring12",
+            "pic": "images/ring6.jpeg",
+            "name": "Cushion Cut Ring",
+            "description": "A cushion cut ring that blends classic elegance with contemporary style.",
+            "price": "2,200"
+        }
+    ],
+    "PendantData": [
+        {
+            "id": "pendant1",
+            "pic": "images/Pendant1.jpeg",
+            "name": "Elegant Diamond Pendant",
+            "description": "A beautiful diamond pendant with an elegant design, perfect for special occasions.",
+            "price": "2,500"
+        },
+        {
+            "id": "pendant2",
+            "pic": "images/Pendant2.jpeg",
+            "name": "Classic Gold Pendant",
+            "description": "A timeless gold pendant that symbolizes eternal love and commitment.",
+            "price": "800"
+        },
+        {
+            "id": "pendant3",
+            "pic": "images/Pendant3.jpeg",
+            "name": "Platinum Pendant",
+            "description": "A stunning platinum pendant designed to celebrate your special moments.",
+            "price": "3,000"
+        },
+        {
+            "id": "pendant4",
+            "pic": "images/Pendant4.jpeg",
+            "name": "Sapphire Gemstone Pendant",
+            "description": "An exquisite pendant featuring a deep blue sapphire gemstone.",
+            "price": "1,500"
+        },
+        {
+            "id": "pendant5",
+            "pic": "images/Pendant5.jpeg",
+            "name": "Rose Gold Pendant",
+            "description": "A modern pendant crafted from rose gold, offering a unique and stylish look.",
+            "price": "1,200"
+        },
+        {
+            "id": "pendant6",
+            "pic": "images/Pendant6.jpeg",
+            "name": "Vintage Silver Pendant",
+            "description": "A vintage-inspired silver pendant with intricate detailing.",
+            "price": "600"
+        },
+        {
+            "id": "pendant7",
+            "pic": "images/Pendant1.jpeg",
+            "name": "Emerald Cut Pendant",
+            "description": "A sophisticated pendant with an emerald cut stone, perfect for making a statement.",
+            "price": "4,000"
+        },
+        {
+            "id": "pendant8",
+            "pic": "images/Pendant2.jpeg",
+            "name": "Pearl Pendant",
+            "description": "A delicate pendant featuring a lustrous pearl at its center.",
+            "price": "900"
+        },
+        {
+            "id": "pendant9",
+            "pic": "images/Pendant3.jpeg",
+            "name": "Ruby Pendant",
+            "description": "A pendant adorned with a vibrant ruby gemstone, symbolizing passion and love.",
+            "price": "1,800"
+        },
+        {
+            "id": "pendant10",
+            "pic": "images/Pendant4.jpeg",
+            "name": "Halo Diamond Pendant",
+            "description": "A dazzling halo pendant with a center diamond surrounded by smaller diamonds.",
+            "price": "3,500"
+        },
+        {
+            "id": "pendant11",
+            "pic": "images/Pendant5.jpeg",
+            "name": "Twisted Band Pendant",
+            "description": "A unique pendant with a twisted band design, adding a modern touch.",
+            "price": "1,100"
+        },
+        {
+            "id": "pendant12",
+            "pic": "images/Pendant6.jpeg",
+            "name": "Cushion Cut Pendant",
+            "description": "A cushion cut pendant that blends classic elegance with contemporary style.",
+            "price": "2,200"
+        }
+    ],
+    "NecklaceData": [
+        {
+            "id": "necklace1",
+            "pic": "images/Necklace1.jpeg",
+            "name": "Elegant Diamond Necklace",
+            "description": "A beautiful diamond necklace with an elegant design, perfect for special occasions.",
+            "price": "2,500"
+        },
+        {
+            "id": "necklace2",
+            "pic": "images/Necklace2.jpeg",
+            "name": "Classic Gold Necklace",
+            "description": "A timeless gold necklace that symbolizes eternal love and commitment.",
+            "price": "800"
+        },
+        {
+            "id": "necklace3",
+            "pic": "images/Necklace3.jpeg",
+            "name": "Platinum Necklace",
+            "description": "A stunning platinum necklace designed to celebrate your special moments.",
+            "price": "3,000"
+        },
+        {
+            "id": "necklace4",
+            "pic": "images/Necklace4.jpeg",
+            "name": "Sapphire Gemstone Necklace",
+            "description": "An exquisite necklace featuring a deep blue sapphire gemstone.",
+            "price": "1,500"
+        },
+        {
+            "id": "necklace5",
+            "pic": "images/Necklace5.jpeg",
+            "name": "Rose Gold Necklace",
+            "description": "A modern necklace crafted from rose gold, offering a unique and stylish look.",
+            "price": "1,200"
+        },
+        {
+            "id": "necklace6",
+            "pic": "images/Necklace6.jpeg",
+            "name": "Vintage Silver Necklace",
+            "description": "A vintage-inspired silver necklace with intricate detailing.",
+            "price": "600"
+        },
+        {
+            "id": "necklace7",
+            "pic": "images/Necklace1.jpeg",
+            "name": "Emerald Cut Necklace",
+            "description": "A sophisticated necklace with an emerald cut stone, perfect for making a statement.",
+            "price": "4,000"
+        },
+        {
+            "id": "necklace8",
+            "pic": "images/Necklace2.jpeg",
+            "name": "Pearl Necklace",
+            "description": "A delicate necklace featuring a lustrous pearl at its center.",
+            "price": "900"
+        },
+        {
+            "id": "necklace9",
+            "pic": "images/Necklace3.jpeg",
+            "name": "Ruby Necklace",
+            "description": "A necklace adorned with a vibrant ruby gemstone, symbolizing passion and love.",
+            "price": "1,800"
+        },
+        {
+            "id": "necklace10",
+            "pic": "images/Necklace4.jpeg",
+            "name": "Halo Diamond Necklace",
+            "description": "A dazzling halo necklace with a center diamond surrounded by smaller diamonds.",
+            "price": "3,500"
+        },
+        {
+            "id": "necklace11",
+            "pic": "images/Necklace5.jpeg",
+            "name": "Twisted Band Necklace",
+            "description": "A unique necklace with a twisted band design, adding a modern touch.",
+            "price": "1,100"
+        },
+        {
+            "id": "necklace12",
+            "pic": "images/Necklace6.jpeg",
+            "name": "Cushion Cut Necklace",
+            "description": "A cushion cut necklace that blends classic elegance with contemporary style.",
+            "price": "2,200"
+        }
+    ]
+}

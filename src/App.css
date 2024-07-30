@@ -1,0 +1,202 @@
+.App {
+  text-align: center;
+}
+
+
+@keyframes colorChange {
+  0%   { color: #831D23; }
+  25%  { color: #112984; }
+  50%  { color: #C1A2B4; }
+  75%  { color: #C1A2B4; }
+  100% { color: #831D23; }
+}
+
+.Brand_Name {
+  background-color: white;
+  width: 150px;
+  text-align: center;
+  border-radius: 5px; 
+  padding: 5px; 
+  animation: colorChange 4s infinite; 
+}
+
+.scrolling-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+.scrolling-wrapper {
+  display: flex;
+  width: fit-content;
+  animation: scroll-left 15s linear infinite;
+}
+
+.testimonial-card {
+  max-width: 400px;
+  height: 190px;
+  margin: 10px;
+  background-color: #79caa4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile-Image {
+  max-height: 70px;
+  max-width: 70px;
+  border: 0.5px solid black;
+  border-radius: 50%;
+}
+
+.testimonial-carousel .react-multi-carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-carousel .react-multi-carousel-track {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar-container {
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 10px; 
+  background-color: #f8f9fa; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar-container .form-control {
+  border: none; 
+  box-shadow: none; 
+  border-radius: 4px; 
+}
+
+.search-bar-container .btn {
+  border-radius: 4px; 
+}
+
+.search-bar-container .me-2 {
+  margin-right: 10px;
+}
+
+.custom-card  {
+  margin-top: 20px;
+  height: 400px;
+  width: auto;
+}
+
+.custom-card-img {
+  margin-top: 5px;
+  width: 50%; 
+  height: 250px; 
+  object-fit: cover; 
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-price {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #555;
+}
+
+
+.show-more-button {
+  display: block;
+  margin: 20px auto;
+}
+
+@media (max-width: 576px) {
+  .custom-card {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-card {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-card {
+    margin-bottom: 30px;
+  }
+}
+
+.navbar .badge {
+  font-size: 0.75rem;
+  padding: 0.5em;
+}
+
+.cart-link {
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+}
+
+.cart-badge {
+  position: relative;
+  float: left;
+  top: -8px;
+  left: 35px;
+  font-size: 0.6rem;
+  padding: 0.3em 0.4em;
+}
+
+@media (max-width: 576px) {
+  .cart-badge {
+    top: -5px;
+    right: -5px;
+    font-size: 0.5rem;
+    padding: 0.2em 0.3em;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .cart-badge {
+    top: -6px;
+    right: -6px;
+    font-size: 0.55rem;
+    padding: 0.25em 0.35em;
+  }
+}
+
+.cart-item-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+.cart-item-card.purchased {
+  background-color: #d4edda; /* Green background for purchased cards */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.buy-now-button {
+  flex: 1;
+  margin-right: 5px;
+}
+
+.return-policy-button {
+  flex: 1;
+  margin-right: 5px;
+}
+
+.delete-button {
+  flex: 1;
+}
