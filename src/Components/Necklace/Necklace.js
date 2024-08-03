@@ -116,6 +116,7 @@ function Necklace() {
             name={item.name}
             description={item.description}
             price={item.price}
+            id={item.id}
             />
           </Col>
         ))}

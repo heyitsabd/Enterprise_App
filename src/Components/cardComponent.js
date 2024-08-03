@@ -3,7 +3,7 @@ import { Card, Button } from "react-bootstrap";
 import "../App.css";
 import { CartContext } from "../Context/Cart";
 
-const CardComponent = ({ pic, name, description, price }) => {
+const CardComponent = ({ pic, name, description, price,id }) => {
   const cart = useContext(CartContext);
   // console.log(cart);
   return (
@@ -19,7 +19,7 @@ const CardComponent = ({ pic, name, description, price }) => {
           variant="primary"
           className="add-to-cart-button"
           onClick={() =>
-            cart.setItems([...cart.items, { name: name, price: price }])
+            cart.setItems([...cart.items, { name: name, price: price,id:id }])
           }
         >
           {" "}

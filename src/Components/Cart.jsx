@@ -58,7 +58,7 @@ function Cart() {
                     ) : (
                       <Button 
                         variant="danger" 
-                        onClick={() => removeItem(item)}
+                        onClick={() => removeItem(item.id)}
                         className="delete-button"
                       >
                         Delete

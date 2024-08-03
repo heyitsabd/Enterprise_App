@@ -4,9 +4,10 @@ export const CartContext = createContext(null);
 
 export const CartProvider = (props) => {
     const [items, setItems] = useState([]);
+    console.log("Items",items)
 
     const removeItem = (itemToRemove) => {
-        setItems((data) => data.filter(item => item.id !== itemToRemove.id));
+        setItems((data) => data.filter(item => item.id !== itemToRemove));
     };
 
     const updateItemStatus = (itemId, newStatus) => {
